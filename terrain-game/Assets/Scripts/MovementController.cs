@@ -3,7 +3,10 @@ using UnityEngine.InputSystem;
 
 public class MovementController : MonoBehaviour
 {
+    [Header("Bindings for Movement")]
     [SerializeField] private InputAction baloonMovement;
+
+    [Header("Variables for Movement configuration")]
     [SerializeField] private float baloonSpeed = 10f;
     [SerializeField] private float xRange;
     [SerializeField] private float yRange;
